@@ -96,7 +96,7 @@ export const Lightbox: React.FC<LightboxProps> = ({ file, onClose, onNext, onPre
                     controls 
                     autoPlay 
                     onLoadedData={() => setIsLoading(false)}
-                    referrerPolicy="no-referrer"
+                   
                     crossOrigin="anonymous"
                     className={`w-full h-full object-contain shadow-[0_0_50px_rgba(5,217,232,0.5)] ${rotateClass} ${isLoading ? 'opacity-0' : 'opacity-100 transition-opacity duration-500'}`}
                   />
