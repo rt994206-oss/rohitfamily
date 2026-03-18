@@ -1,0 +1,3 @@
+﻿src/App.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/Loader.tsx(8,9): error TS6133: 'particlesRef' is declared but its value is never read.
+src/components/Sections/Timeline.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
